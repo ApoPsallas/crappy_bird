@@ -1,4 +1,5 @@
 import pygame
+from colors import *
 from pygame.transform import *
 from pygame.locals import *
 import random
@@ -23,15 +24,7 @@ score_flag = False
 score = 0
 final_score = 0
 score_font = pygame.font.SysFont("monospace", 30)
-white = (255,255,255)
-black = (0,0,0)
-brown = (160,82,45)
-red = (255,0,0)
-green = (0,255,0)
-blue = (0,0,255)
-light_blue = (100,100,255)
-yellow = (255,255,0)
-grey = (128,128,128)
+
 cloud_img = path+'cloud.png'
 bird_up_img = path+'bird_wings_up.png'
 bird_down_img = path+'bird_wings_down.png'
